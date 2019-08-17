@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="shortcut icon" type="imagem/x-icon" href="../favicon/favicon.ico" />
     <link rel="stylesheet" href="..css//mystyle.css">
@@ -22,62 +28,28 @@
     <div class="conteiner-fluid" style="background-color: rgb(52, 58, 64)">
         <nav style="font-family: bold; width: 100%">
 
-            <div class="row" style="width: 100%; margin-left: 0%">
-                <div class="col-md-2" align="center">
-                    <img class="img-fluid" width="140px" height="140px"
+            <div class="row" style="width: 100%; margin-left: 0%" align="center">
+                <div id="center" class="col-md-2">
+                    <img id="center" class="img-fluid" width="140px" height="140px"
                         style="margin-top: 2%; border-radius: 50%;  border:solid #007bff; border-width: 4px"
                         src="https://avatars3.githubusercontent.com/u/47496523?s=400&u=682bcbedc2f1be033e151227039a6535fe7f390c&v=4">
                 </div>
 
-                <div class="col-md-2" style="margin-top: 3.8%" align="center">
-                    <span>
-                            <a href="#sobre">
-                                    <button class="btn-lg btn-outline-primary btn-block" 
-                                        style="background-color: transparent">
-                                        SOBRE
-                                    </button>
-                                </a>
-                    </span>
+                <div class="col-md-2" style="margin-top: 3%" align="center" >
+                    
+                    <button onclick="location.href='#sobre'" class="btn btn-outline-primary btn-block btn-lg"> SOBRE </button>
                 </div>
-                <div class="col-md-2" style="margin-top: 3.8%" align="center">
-                    <span>
-                            <a href="#experiencia">
-                                    <button class="btn-lg btn-outline-primary btn-block" 
-                                        style="background-color: transparent">
-                                        EXPERIENCIA
-                                    </button>
-                                </a>
-                    </span>
+                <div class="col-md-2" style="margin-top: 3%" align="center">
+                        <button onclick="location.href='#experiencia'" class="btn btn-outline-primary btn-block btn-lg"> EXPERIENCIA </button>
                 </div>
-                <div class="col-md-2" style="margin-top: 3.8%" align="center">
-                    <span>
-                            <a href="#educacao">
-                                    <button class="btn-lg btn-outline-primary btn-block"
-                                        style="background-color: transparent">
-                                        EDUCAÇÃO
-                                    </button>
-                                </a>
-                    </span>
+                <div class="col-md-2" style="margin-top: 3%" align="center">
+                        <button onclick="location.href='#educacao'" class="btn btn-outline-primary btn-block btn-lg"> EDUCAÇÃO </button>
                 </div>
-                <div class="col-md-2" style="margin-top: 3.8%" align="center">
-                    <span>
-                            <a href="#habilidades">
-                                    <button class="btn-lg btn-outline-primary btn-block" 
-                                        style="background-color: transparent">
-                                        HABILIDADES
-                                    </button>
-                                </a>
-                    </span>
+                <div class="col-md-2" style="margin-top: 3%" align="center">
+                        <button onclick="location.href='#habilidades'" class="btn btn-outline-primary btn-block btn-lg"> HABILIDADES </button>
                 </div>
-                <div class="col-md-2" style="margin-top: 3.8%" align="center">
-                    <span>
-                        <a href="#interesses">
-                            <button class="btn-lg btn-outline-primary btn-block" 
-                                style="background-color: transparent">
-                                INTERESSES
-                            </button>
-                        </a>
-                    </span>
+                <div class="col-md-2" style="margin-top: 3%" align="center">
+                        <button onclick="location.href='#interesses'" class="btn btn-outline-primary btn-block btn-lg"> INTERESSES </button>
                 </div>
 
 
@@ -252,6 +224,8 @@
                                 <br>
                                 • Bootstrap (básico);
                                 <br>
+                                • CSS;
+                                <br>
                                 • GitHub.
 
                             </p>
@@ -296,6 +270,7 @@
         </div>
 
     </div>
+    
 
 </body>
 
